@@ -11,12 +11,12 @@ baseurl: ""
 author:
   name: Sandeep Giri
   email: sandeepgiri@gmail.com
-  linkedin: "[ADD LINKEDIN URL]"
-  github: "[ADD GITHUB URL]"
-  twitter: "[ADD TWITTER URL]"
+  linkedin: "https://www.linkedin.com/in/girisandeep/"
+  github: "https://github.com/girisandeep"
+  twitter: "https://x.com/sandeepgiri"
 
-cloudxlab_url: "[ADD CLOUDXLAB URL]"
-terno_url: "[ADD TERNO AI URL]"
+cloudxlab_url: "https://cloudxlab.com/"
+terno_url: "https://terno.ai/"
 
 # Build settings
 markdown: kramdown
