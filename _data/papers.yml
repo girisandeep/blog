@@ -1,0 +1,24 @@
+# Add new papers at the top (most recent first).
+#
+# Required fields: title, date, paper_url
+# Optional: venue, doi, code_url, abstract, tags, highlight
+
+- title: "Domain-Focused PCA on Text Embeddings Improves Semantic Retrieval: A Medical Domain Study"
+  date: "2026-05-21"
+  venue: "Zenodo"
+  doi: "10.5281/zenodo.20320367"
+  paper_url: "https://zenodo.org/records/20320367"
+  code_url: "https://github.com/cloudxlab/pca_embeddings"
+  abstract: >
+    Applying Principal Component Analysis to text embeddings fitted on a domain-specific
+    corpus improves semantic retrieval without any fine-tuning of the embedding model.
+    Tested on a medical corpus of 20 clinical topics using OpenAI's text-embedding-3-small,
+    PCA-32 with corpus-only fitting achieved MAP 0.9203 versus a baseline of 0.8750 —
+    a 5.2% improvement — alongside a 2.5× increase in similarity gap and 48× reduction
+    in storage. Domain-directed axes are essential; random projections do not replicate
+    the gain.
+  tags: [PCA, text embeddings, semantic retrieval, NLP, medical domain]
+  highlights:
+    - "+5.2% Mean Average Precision"
+    - "2.5× similarity gap"
+    - "48× storage compression"
