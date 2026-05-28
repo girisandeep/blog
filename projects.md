@@ -29,7 +29,7 @@ permalink: /projects/
 .project-org {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #111827;
+  color: #1C1917;
   margin-bottom: 0.25rem;
 }
 .project-period {
@@ -40,7 +40,7 @@ permalink: /projects/
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: -0.01em;
-  color: #111827;
+  color: #1C1917;
   margin-bottom: 0.75rem;
   line-height: 1.3;
 }
@@ -64,11 +64,11 @@ permalink: /projects/
   gap: 0.3rem;
   font-size: 0.82rem;
   font-weight: 600;
-  color: #2563EB;
+  color: #B45309;
   text-decoration: none;
   margin-top: 1rem;
 }
-.project-link:hover { color: #1E40AF; }
+.project-link:hover { color: #92400E; }
 @media (max-width: 640px) {
   .project-entry {
     grid-template-columns: 1fr;

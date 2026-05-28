@@ -7,7 +7,7 @@ permalink: /terno-ai/
 
 <style>
 .terno-hero {
-  background: linear-gradient(135deg, #1E3A8A 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #78350F 0%, #B45309 100%);
   color: white;
   padding: 4.5rem 0 4rem;
   margin-bottom: 4rem;
@@ -22,7 +22,7 @@ permalink: /terno-ai/
   font-weight: 700;
   letter-spacing: -0.015em;
   margin: 3rem 0 1rem;
-  color: #111827;
+  color: #1C1917;
 }
 .terno-section p {
   font-family: 'Lora', serif;
@@ -50,7 +50,7 @@ permalink: /terno-ai/
 .capability-title {
   font-size: 0.9rem;
   font-weight: 700;
-  color: #111827;
+  color: #1C1917;
   margin-bottom: 0.35rem;
 }
 .capability-desc {
@@ -73,13 +73,13 @@ permalink: /terno-ai/
 .principle-list .check {
   width: 22px;
   height: 22px;
-  background: #DBEAFE;
+  background: #FDE68A;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.7rem;
-  color: #1D4ED8;
+  color: #B45309;
   flex-shrink: 0;
   margin-top: 1px;
   font-weight: 700;
@@ -88,7 +88,7 @@ permalink: /terno-ai/
   display: block;
   font-size: 0.95rem;
   font-weight: 600;
-  color: #111827;
+  color: #1C1917;
   margin-bottom: 0.2rem;
 }
 .principle-list .text span {
@@ -111,7 +111,7 @@ permalink: /terno-ai/
       on organisational data using natural language.
     </p>
     <div style="display:flex;gap:1rem;flex-wrap:wrap">
-      <a href="{{ site.terno_url }}" class="btn" style="background:white;color:#1D4ED8;font-weight:700" target="_blank" rel="noopener">Visit Terno AI →</a>
+      <a href="{{ site.terno_url }}" class="btn" style="background:white;color:#B45309;font-weight:700" target="_blank" rel="noopener">Visit Terno AI →</a>
       <a href="{{ '/essays' | relative_url }}?category=building-terno-ai" class="btn" style="background:rgba(255,255,255,0.12);color:white;border-color:rgba(255,255,255,0.3)">Read my essays on this</a>
     </div>
   </div>
@@ -263,8 +263,8 @@ If you are an enterprise leader, data engineer, or product builder thinking abou
 reliable AI analytics, I would be glad to connect. And if you want to follow
 the thinking behind how Terno AI is being designed, read my essays on enterprise AI.
 
-<div style="margin-top:3rem;padding:2rem;background:#EEF2FF;border-radius:12px;border:1px solid #DBEAFE">
-  <div style="font-size:0.85rem;font-weight:700;color:#1E40AF;margin-bottom:0.75rem">Get involved</div>
+<div style="margin-top:3rem;padding:2rem;background:#FEF3E2;border-radius:12px;border:1px solid #FDE68A">
+  <div style="font-size:0.85rem;font-weight:700;color:#92400E;margin-bottom:0.75rem">Get involved</div>
   <div style="display:flex;flex-wrap:wrap;gap:0.75rem">
     <a href="{{ site.terno_url }}" class="btn btn--primary" target="_blank" rel="noopener">Visit Terno AI</a>
     <a href="{{ '/essays' | relative_url }}?category=building-terno-ai" class="btn btn--outline">Read related essays</a>

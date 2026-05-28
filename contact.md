@@ -32,12 +32,12 @@ permalink: /contact/
   color: inherit;
   transition: color 150ms ease;
 }
-.contact-item:hover { color: #2563EB; }
+.contact-item:hover { color: #B45309; }
 .contact-item:first-of-type { border-top: 1px solid #F3F4F6; }
 .contact-icon {
   width: 40px;
   height: 40px;
-  background: #EEF2FF;
+  background: #FEF3E2;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@ permalink: /contact/
   flex-shrink: 0;
   transition: background 150ms ease;
 }
-.contact-item:hover .contact-icon { background: #DBEAFE; }
+.contact-item:hover .contact-icon { background: #FDE68A; }
 .contact-label {
   font-size: 0.75rem;
   font-weight: 600;
@@ -57,7 +57,7 @@ permalink: /contact/
 .contact-value {
   font-size: 0.95rem;
   font-weight: 500;
-  color: #111827;
+  color: #1C1917;
 }
 @media (max-width: 768px) {
   .contact-grid { grid-template-columns: 1fr; gap: 3rem; }

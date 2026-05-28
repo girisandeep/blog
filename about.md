@@ -22,8 +22,8 @@ permalink: /about/
   letter-spacing: -0.01em;
   margin: 3rem 0 1rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #EEF2FF;
-  color: #111827;
+  border-bottom: 2px solid #FEF3E2;
+  color: #1C1917;
 }
 .about-section p {
   font-family: 'Lora', serif;
@@ -47,8 +47,8 @@ permalink: /about/
   gap: 0.4rem;
   font-size: 0.8rem;
   font-weight: 600;
-  color: #1E40AF;
-  background: #EEF2FF;
+  color: #92400E;
+  background: #FEF3E2;
   border-radius: 6px;
   padding: 4px 12px;
 }

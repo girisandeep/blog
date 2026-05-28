@@ -7,9 +7,9 @@ permalink: /learning-by-inventing/
 
 <style>
 .lbi-hero {
-  background: linear-gradient(135deg, #EEF2FF 0%, #DBEAFE 100%);
+  background: linear-gradient(135deg, #FEF3E2 0%, #FDE68A 100%);
   padding: 4rem 0 3.5rem;
-  border-bottom: 1px solid #DBEAFE;
+  border-bottom: 1px solid #FDE68A;
   margin-bottom: 3rem;
 }
 .lbi-section {
@@ -22,7 +22,7 @@ permalink: /learning-by-inventing/
   font-weight: 700;
   letter-spacing: -0.015em;
   margin: 3rem 0 1rem;
-  color: #111827;
+  color: #1C1917;
 }
 .lbi-section p {
   font-family: 'Lora', serif;
@@ -43,13 +43,13 @@ permalink: /learning-by-inventing/
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #2563EB;
+  color: #B45309;
   margin-bottom: 0.5rem;
 }
 .principle-title {
   font-size: 1rem;
   font-weight: 700;
-  color: #111827;
+  color: #1C1917;
   margin-bottom: 0.5rem;
 }
 .principle-body {
@@ -63,8 +63,8 @@ permalink: /learning-by-inventing/
 
 <div class="lbi-hero">
   <div class="container-content">
-    <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#2563EB;margin-bottom:1rem">Teaching Philosophy</div>
-    <h1 style="font-size:clamp(2rem,5vw,2.8rem);font-weight:700;letter-spacing:-0.02em;line-height:1.15;margin-bottom:1.25rem;color:#111827">Learning by Inventing</h1>
+    <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#B45309;margin-bottom:1rem">Teaching Philosophy</div>
+    <h1 style="font-size:clamp(2rem,5vw,2.8rem);font-weight:700;letter-spacing:-0.02em;line-height:1.15;margin-bottom:1.25rem;color:#1C1917">Learning by Inventing</h1>
     <p style="font-family:'Lora',serif;font-size:1.15rem;line-height:1.7;color:#374151;max-width:560px;margin-bottom:1.5rem">
       Guide learners through a sequence of simple problems until they discover the
       idea, formula or algorithm themselves. Confidence follows understanding.
@@ -180,8 +180,8 @@ philosophy.
 And if you are a researcher or technologist interested in building educational AI
 that teaches through discovery rather than content delivery, I would love to connect.
 
-<div style="margin-top:2.5rem;padding:1.5rem 2rem;background:#EEF2FF;border-radius:12px;border:1px solid #DBEAFE">
-  <p style="font-size:0.95rem;font-weight:600;color:#111827;margin:0 0 0.75rem">Explore this further</p>
+<div style="margin-top:2.5rem;padding:1.5rem 2rem;background:#FEF3E2;border-radius:12px;border:1px solid #FDE68A">
+  <p style="font-size:0.95rem;font-weight:600;color:#1C1917;margin:0 0 0.75rem">Explore this further</p>
   <div style="display:flex;flex-wrap:wrap;gap:0.75rem">
     <a href="{{ '/essays' | relative_url }}?category=learning-by-inventing" class="btn btn--outline btn--sm">Essays on this topic</a>
     <a href="{{ site.cloudxlab_url }}" class="btn btn--ghost btn--sm" target="_blank" rel="noopener">Visit CloudxLab</a>

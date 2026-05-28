@@ -76,15 +76,15 @@
   transition: all $transition-fast;
 
   &:hover {
-    background: $accent-light;
+    background: $bg-accent;
     color: $accent;
-    border-color: $accent-light;
+    border-color: darken($bg-accent, 5%);
   }
 
   &--accent {
-    background: $accent-light;
+    background: $bg-accent;
     color: $accent;
-    border-color: $accent-light;
+    border-color: darken($bg-accent, 5%);
   }
 }
 
