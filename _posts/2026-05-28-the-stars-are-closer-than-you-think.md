@@ -43,6 +43,10 @@ But I had asked the question, and there was something satisfying in that alone.
 
 Then his reply arrived.
 
+![H. C. Verma's letter — page 1]({{ '/assets/images/letter_hc_verma.jpg' | relative_url }})
+
+![H. C. Verma's letter — page 2]({{ '/assets/images/letter_hc_verma_2.jpg' | relative_url }})
+
 He had written back — in Hindi, in a warm and careful hand. He addressed my questions
 one by one. He did not write like a busy professor brushing off a student. He wrote
 like someone who genuinely cared that the ideas landed. The letter was patient and
@@ -126,6 +130,5 @@ from a professor at IIT Kanpur, that changes the way you see the world.
 
 ---
 
-*I am sharing this with the scanned images of the letters. If you have a similar
-story — of reaching out to someone whose work mattered to you, and being surprised
-by what happened — I would genuinely love to hear it.*
+*If you have a similar story — of reaching out to someone whose work mattered to you,
+and being surprised by what happened — I would genuinely love to hear it.*
