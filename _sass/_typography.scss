@@ -1,0 +1,118 @@
+// Prose typography for long-form reading
+.prose {
+  font-family: $font-serif;
+  font-size: 1rem;
+  line-height: $line-height-base;
+  color: $text-primary;
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $font-sans;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-tight;
+    color: $text-primary;
+    margin-top: $space-12;
+    margin-bottom: $space-4;
+  }
+
+  h1 { font-size: $font-size-3xl; margin-top: 0; }
+  h2 { font-size: $font-size-2xl; }
+  h3 { font-size: $font-size-xl; }
+  h4 { font-size: $font-size-lg; }
+
+  p {
+    margin-bottom: $space-6;
+
+    &:last-child { margin-bottom: 0; }
+  }
+
+  a {
+    color: $accent;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+
+    &:hover {
+      color: $accent-dark;
+    }
+  }
+
+  strong {
+    font-weight: $font-weight-semibold;
+    color: $text-primary;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  ul, ol {
+    margin-bottom: $space-6;
+    padding-left: $space-8;
+
+    li {
+      margin-bottom: $space-2;
+      line-height: $line-height-snug * 1.05;
+    }
+
+    ul, ol {
+      margin-top: $space-2;
+      margin-bottom: 0;
+    }
+  }
+
+  blockquote {
+    margin: $space-10 0;
+  }
+
+  pre {
+    margin: $space-8 0;
+  }
+
+  img {
+    border-radius: $radius-md;
+    margin: $space-10 auto;
+    box-shadow: $shadow-md;
+  }
+
+  hr {
+    margin: $space-16 0;
+  }
+
+  // First paragraph lead
+  > p:first-of-type {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: $text-secondary;
+  }
+}
+
+// Heading styles outside prose
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-sans;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  color: $text-primary;
+}
+
+.text-sm   { font-size: $font-size-sm; }
+.text-xs   { font-size: $font-size-xs; }
+.text-lg   { font-size: $font-size-lg; }
+.text-xl   { font-size: $font-size-xl; }
+.text-2xl  { font-size: $font-size-2xl; }
+.text-3xl  { font-size: $font-size-3xl; }
+.text-4xl  { font-size: $font-size-4xl; }
+
+.text-muted     { color: $text-muted; }
+.text-secondary { color: $text-secondary; }
+.text-accent    { color: $accent; }
+
+.font-sans   { font-family: $font-sans; }
+.font-serif  { font-family: $font-serif; }
+.font-mono   { font-family: $font-mono; }
+
+.font-medium   { font-weight: $font-weight-medium; }
+.font-semibold { font-weight: $font-weight-semibold; }
+.font-bold     { font-weight: $font-weight-bold; }
+
+.uppercase     { text-transform: uppercase; letter-spacing: 0.06em; }
+.tracking-wide { letter-spacing: 0.04em; }

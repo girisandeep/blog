@@ -1,0 +1,33 @@
+<header class="site-header" role="banner">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-brand">
+      <span class="brand-full">Sandeep Giri</span>
+      <span class="brand-short">SG</span>
+    </a>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" id="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" role="navigation" id="site-nav">
+      <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+      <a href="{{ '/about' | relative_url }}" {% if page.url contains '/about' %}class="active"{% endif %}>About</a>
+      <a href="{{ '/essays' | relative_url }}" {% if page.url contains '/essays' or page.layout == 'post' %}class="active"{% endif %}>Essays</a>
+      <a href="{{ '/learning-by-inventing' | relative_url }}" {% if page.url contains '/learning-by-inventing' %}class="active"{% endif %}>Learning by Inventing</a>
+      <a href="{{ '/terno-ai' | relative_url }}" {% if page.url contains '/terno-ai' %}class="active"{% endif %}>Terno AI</a>
+      <a href="{{ '/projects' | relative_url }}" {% if page.url contains '/projects' %}class="active"{% endif %}>Projects</a>
+      <a href="{{ '/contact' | relative_url }}" class="nav-cta" {% if page.url contains '/contact' %}style="background:#1E40AF"{% endif %}>Connect</a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('nav-toggle');
+  const nav = document.getElementById('site-nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('is-open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>

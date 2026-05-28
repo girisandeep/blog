@@ -1,0 +1,15 @@
+{% assign post = include.post %}
+<a href="{{ post.url | relative_url }}" class="post-card {% if include.featured %}post-card--featured{% endif %}">
+  <div class="card-category">{{ post.category | default: post.categories[0] | replace: '-', ' ' | capitalize }}</div>
+  <h3 class="card-title">{{ post.title }}</h3>
+  <p class="card-excerpt">{{ post.excerpt | strip_html | truncate: 160 }}</p>
+  <div class="card-meta">
+    <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+    <span>&middot;</span>
+    <span>{{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+    {% if post.tags.size > 0 %}
+    <span>&middot;</span>
+    <span>{{ post.tags | first | replace: '-', ' ' }}</span>
+    {% endif %}
+  </div>
+</a>

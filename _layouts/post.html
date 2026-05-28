@@ -1,0 +1,103 @@
+---
+layout: default
+---
+
+{% assign words = content | number_of_words %}
+{% assign read_time = words | divided_by: 200 | plus: 1 %}
+
+<div class="reading-progress">
+  <div class="progress-bar" id="reading-progress"></div>
+</div>
+
+<article class="post-layout" itemscope itemtype="https://schema.org/Article">
+  <header class="post-header">
+    <div class="container-content">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <span class="sep">›</span>
+        <a href="{{ '/essays' | relative_url }}">Essays</a>
+        <span class="sep">›</span>
+        <span class="current">{{ page.title | truncate: 40 }}</span>
+      </nav>
+
+      {% if page.category %}
+      <a href="{{ '/essays' | relative_url }}?category={{ page.category | slugify }}" class="post-category">
+        {{ page.category }}
+      </a>
+      {% elsif page.categories[0] %}
+      <span class="post-category">{{ page.categories[0] }}</span>
+      {% endif %}
+
+      <h1 class="post-title" itemprop="headline">{{ page.title }}</h1>
+
+      {% if page.excerpt and page.show_excerpt != false %}
+      <p class="post-excerpt">{{ page.excerpt | strip_html }}</p>
+      {% endif %}
+
+      <div class="post-meta">
+        <time datetime="{{ page.date | date: '%Y-%m-%d' }}" itemprop="datePublished">
+          {{ page.date | date: "%B %-d, %Y" }}
+        </time>
+        <span>&middot;</span>
+        <span>{{ read_time }} min read</span>
+        {% if page.tags.size > 0 %}
+        <span>&middot;</span>
+        <div class="post-tags" style="display:inline-flex;gap:6px;margin:0">
+          {% for tag in page.tags limit:3 %}
+          <span class="tag">{{ tag | replace: '-', ' ' }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+
+  <div class="post-body" itemprop="articleBody">
+    <div class="prose">
+      {{ content }}
+    </div>
+  </div>
+
+  <footer class="post-footer">
+    <div class="container-content" style="padding:0">
+      <div class="bio-card">
+        <div class="bio-avatar">SG</div>
+        <div class="bio-content">
+          <div class="bio-name">Sandeep Giri</div>
+          <div class="bio-title">Founder of CloudxLab &amp; Terno AI</div>
+          <p class="bio-text">
+            Teacher, technologist and founder exploring AI, learning and ideas beyond common sense.
+            <a href="{{ '/about' | relative_url }}">Learn more →</a>
+          </p>
+        </div>
+      </div>
+
+      {% assign cat = page.category | default: page.categories[0] %}
+      {% if cat %}
+      {% assign related = site.posts | where: "category", cat | where_exp: "p", "p.url != page.url" | limit: 3 %}
+      {% if related.size > 0 %}
+      <div style="margin-top:3rem">
+        <div class="section-divider"><h2>More in {{ cat }}</h2></div>
+        <div class="grid-posts" style="grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.5rem">
+          {% for post in related %}
+          {% include post-card.html post=post %}
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% endif %}
+    </div>
+  </footer>
+</article>
+
+<script>
+  const bar = document.getElementById('reading-progress');
+  if (bar) {
+    window.addEventListener('scroll', () => {
+      const doc = document.documentElement;
+      const scrolled = doc.scrollTop;
+      const total = doc.scrollHeight - doc.clientHeight;
+      bar.style.width = (scrolled / total * 100) + '%';
+    });
+  }
+</script>

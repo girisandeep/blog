@@ -1,0 +1,123 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: $font-size-base;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-sans;
+  font-size: 1rem;
+  line-height: $line-height-base;
+  color: $text-primary;
+  background-color: $bg-primary;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color $transition-fast;
+
+  &:hover {
+    color: $accent-dark;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $border;
+  margin: $space-12 0;
+}
+
+ul, ol {
+  padding-left: $space-6;
+}
+
+blockquote {
+  border-left: 3px solid $accent;
+  padding: $space-4 $space-6;
+  margin: $space-8 0;
+  background: $bg-accent;
+  border-radius: 0 $radius-md $radius-md 0;
+
+  p {
+    font-style: italic;
+    font-size: 1.05rem;
+    color: $text-secondary;
+    margin: 0;
+    line-height: $line-height-snug * 1.1;
+  }
+}
+
+pre {
+  background: $code-bg;
+  border: 1px solid $border;
+  border-radius: $radius-md;
+  padding: $space-5 $space-6;
+  overflow-x: auto;
+  font-family: $font-mono;
+  font-size: 0.85rem;
+  line-height: 1.65;
+  margin: $space-8 0;
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    color: $text-primary;
+  }
+}
+
+code {
+  font-family: $font-mono;
+  font-size: 0.875rem;
+  background: $code-bg;
+  border: 1px solid $border;
+  border-radius: $radius-sm;
+  padding: 2px 6px;
+  color: #C2185B;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: $space-8 0;
+  font-size: 0.95rem;
+
+  th, td {
+    padding: $space-3 $space-4;
+    text-align: left;
+    border-bottom: 1px solid $border;
+  }
+
+  th {
+    font-weight: $font-weight-semibold;
+    background: $bg-secondary;
+    font-size: $font-size-sm;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  tr:hover td {
+    background: $bg-secondary;
+  }
+}
+
+::selection {
+  background: $accent-light;
+  color: $accent-dark;
+}

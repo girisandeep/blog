@@ -1,0 +1,346 @@
+.site-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1;
+}
+
+// Container utilities
+.container {
+  max-width: $max-width-site;
+  margin: 0 auto;
+  padding: 0 $space-6;
+}
+
+.container-content {
+  max-width: $max-width-content;
+  margin: 0 auto;
+  padding: 0 $space-6;
+}
+
+.container-wide {
+  max-width: $max-width-wide;
+  margin: 0 auto;
+  padding: 0 $space-6;
+}
+
+// Page sections
+.section {
+  padding: $space-20 0;
+
+  &--sm { padding: $space-12 0; }
+  &--lg { padding: $space-24 0; }
+  &--alt { background: $bg-secondary; }
+}
+
+// Hero
+.hero {
+  padding: $space-20 0 $space-16;
+  border-bottom: 1px solid $border;
+
+  .container-content {
+    max-width: 720px;
+  }
+
+  .hero-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: $space-2;
+    font-size: $font-size-xs;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $accent;
+    margin-bottom: $space-6;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 6vw, $font-size-4xl);
+    font-weight: $font-weight-bold;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: $space-6;
+    color: $text-primary;
+  }
+
+  .hero-subtitle {
+    font-family: $font-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    color: $text-secondary;
+    margin-bottom: $space-8;
+    max-width: 580px;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $space-3;
+  }
+}
+
+// Page header
+.page-header {
+  padding: $space-16 0 $space-10;
+  border-bottom: 1px solid $border;
+  margin-bottom: $space-12;
+
+  .page-label {
+    font-size: $font-size-xs;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $accent;
+    margin-bottom: $space-4;
+  }
+
+  .page-title {
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: $space-4;
+  }
+
+  .page-description {
+    font-family: $font-serif;
+    font-size: 1.1rem;
+    color: $text-secondary;
+    line-height: $line-height-snug;
+    max-width: $max-width-content;
+  }
+}
+
+// Post article layout
+.post-layout {
+  padding: $space-12 0 $space-20;
+}
+
+.post-header {
+  max-width: $max-width-content;
+  margin: 0 auto $space-12;
+  padding: 0 $space-6;
+
+  .post-category {
+    display: inline-block;
+    font-size: $font-size-xs;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $accent;
+    margin-bottom: $space-4;
+    text-decoration: none;
+
+    &:hover { color: $accent-dark; }
+  }
+
+  .post-title {
+    font-size: clamp(1.8rem, 4vw, $font-size-3xl);
+    font-weight: $font-weight-bold;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: $space-5;
+  }
+
+  .post-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $space-4;
+    font-size: $font-size-sm;
+    color: $text-muted;
+  }
+
+  .post-excerpt {
+    font-family: $font-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: $text-secondary;
+    margin-top: $space-5;
+    padding-top: $space-5;
+    border-top: 1px solid $border;
+  }
+}
+
+.post-body {
+  max-width: $max-width-content;
+  margin: 0 auto;
+  padding: 0 $space-6;
+}
+
+.post-footer {
+  max-width: $max-width-content;
+  margin: $space-16 auto 0;
+  padding: $space-8 $space-6 0;
+  border-top: 1px solid $border;
+}
+
+// Post tags
+.post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $space-2;
+  margin-bottom: $space-6;
+}
+
+// Sidebar layout
+.layout-sidebar {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: $space-16;
+  align-items: start;
+
+  @media (max-width: $bp-lg) {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Grid layouts
+.grid-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: $space-8;
+}
+
+.grid-categories {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: $space-5;
+}
+
+// Section divider
+.section-divider {
+  display: flex;
+  align-items: center;
+  gap: $space-4;
+  margin-bottom: $space-8;
+
+  h2 {
+    font-size: 1rem;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $text-secondary;
+    white-space: nowrap;
+  }
+
+  &::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: $border;
+  }
+}
+
+// Site footer
+.site-footer {
+  border-top: 1px solid $border;
+  padding: $space-12 0 $space-8;
+  margin-top: $space-20;
+
+  .footer-inner {
+    max-width: $max-width-site;
+    margin: 0 auto;
+    padding: 0 $space-6;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: $space-12;
+    margin-bottom: $space-12;
+
+    @media (max-width: $bp-md) {
+      grid-template-columns: 1fr 1fr;
+      gap: $space-8;
+    }
+
+    @media (max-width: $bp-sm) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .footer-brand {
+    .brand-name {
+      font-weight: $font-weight-bold;
+      font-size: 1.1rem;
+      color: $text-primary;
+      margin-bottom: $space-3;
+    }
+
+    .brand-tagline {
+      font-family: $font-serif;
+      font-size: $font-size-sm;
+      color: $text-secondary;
+      line-height: $line-height-snug;
+    }
+  }
+
+  .footer-section-title {
+    font-size: $font-size-xs;
+    font-weight: $font-weight-semibold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: $text-muted;
+    margin-bottom: $space-4;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: $space-2;
+
+    a {
+      font-size: $font-size-sm;
+      color: $text-secondary;
+      text-decoration: none;
+
+      &:hover { color: $accent; }
+    }
+  }
+
+  .footer-bottom {
+    padding-top: $space-8;
+    border-top: 1px solid $border;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: $space-4;
+
+    .copyright {
+      font-size: $font-size-xs;
+      color: $text-muted;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: $space-4;
+
+      a {
+        font-size: $font-size-xs;
+        color: $text-muted;
+        text-decoration: none;
+
+        &:hover { color: $accent; }
+      }
+    }
+  }
+}
+
+@media (max-width: $bp-sm) {
+  .hero {
+    padding: $space-12 0 $space-10;
+  }
+
+  .container,
+  .container-content,
+  .container-wide {
+    padding: 0 $space-4;
+  }
+}

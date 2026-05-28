@@ -1,0 +1,192 @@
+---
+layout: default
+title: Learning by Inventing
+description: A teaching philosophy built on guided discovery — helping learners derive ideas themselves rather than simply receiving them.
+permalink: /learning-by-inventing/
+---
+
+<style>
+.lbi-hero {
+  background: linear-gradient(135deg, #EEF2FF 0%, #DBEAFE 100%);
+  padding: 4rem 0 3.5rem;
+  border-bottom: 1px solid #DBEAFE;
+  margin-bottom: 3rem;
+}
+.lbi-section {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 1.5rem 5rem;
+}
+.lbi-section h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin: 3rem 0 1rem;
+  color: #111827;
+}
+.lbi-section p {
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  line-height: 1.78;
+  color: #374151;
+  margin-bottom: 1.25rem;
+}
+.principle-card {
+  background: white;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+.principle-number {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #2563EB;
+  margin-bottom: 0.5rem;
+}
+.principle-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+.principle-body {
+  font-family: 'Lora', serif;
+  font-size: 0.9rem;
+  color: #6B7280;
+  line-height: 1.65;
+  margin: 0;
+}
+</style>
+
+<div class="lbi-hero">
+  <div class="container-content">
+    <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.1em;color:#2563EB;margin-bottom:1rem">Teaching Philosophy</div>
+    <h1 style="font-size:clamp(2rem,5vw,2.8rem);font-weight:700;letter-spacing:-0.02em;line-height:1.15;margin-bottom:1.25rem;color:#111827">Learning by Inventing</h1>
+    <p style="font-family:'Lora',serif;font-size:1.15rem;line-height:1.7;color:#374151;max-width:560px;margin-bottom:1.5rem">
+      Guide learners through a sequence of simple problems until they discover the
+      idea, formula or algorithm themselves. Confidence follows understanding.
+      Understanding follows discovery.
+    </p>
+    <a href="{{ '/essays' | relative_url }}?category=learning-by-inventing" class="btn btn--primary">Read essays on this →</a>
+  </div>
+</div>
+
+<div class="lbi-section">
+
+## The Core Idea
+
+Traditional education often begins by giving learners a formula, a definition or an
+algorithm, and then asking them to apply it. The learner receives the idea fully
+formed and is asked to accept it on faith.
+
+I believe a more powerful approach is different. Instead of beginning with the answer,
+give learners a carefully designed sequence of simple problems. As they work through
+these problems, they begin to see a pattern. They start to ask: why does this keep
+happening? What is going on here? And gradually, if the sequence is designed well,
+they construct the idea for themselves.
+
+This is what I mean by **Learning by Inventing**.
+
+When a learner discovers something, it becomes genuinely theirs. They understand
+not just how it works, but why it must work. They remember it because they built it.
+And most importantly, they develop confidence: the sense that they are capable of
+original thought.
+
+## A Simple Example
+
+Instead of beginning with the Pythagorean theorem, guide a child through drawing
+squares on the sides of right triangles. Ask them to count the areas. Ask them to
+cut and rearrange the pieces. Let them play until they begin to notice something
+surprising.
+
+The moment the child says: *wait, the big square always equals the two smaller
+squares together* — that is a completely different experience from being told it.
+
+The same principle applies to machine learning. Instead of presenting a neural
+network as a mathematical structure, give learners progressively harder prediction
+problems. Ask them to think: how would I improve this prediction? They will start
+adjusting weights, noticing errors, updating their approach. Without realising it,
+they are building the core intuition of gradient descent.
+
+## The Five Principles
+
+<div class="principle-card">
+  <div class="principle-number">Principle 01</div>
+  <div class="principle-title">Start with the problem, not the solution</div>
+  <p class="principle-body">Design a simple, concrete problem that the learner can engage with immediately. The formula comes later. The engagement comes first.</p>
+</div>
+
+<div class="principle-card">
+  <div class="principle-number">Principle 02</div>
+  <div class="principle-title">Build a sequence toward discovery</div>
+  <p class="principle-body">Each problem should be a small step. Gradually increase complexity until the pattern becomes visible. Patience here is not optional — it is the method.</p>
+</div>
+
+<div class="principle-card">
+  <div class="principle-number">Principle 03</div>
+  <div class="principle-title">Let the learner feel stuck</div>
+  <p class="principle-body">Productive struggle is not a failure of teaching. It is the moment before understanding. A teacher who prevents all struggle also prevents discovery.</p>
+</div>
+
+<div class="principle-card">
+  <div class="principle-number">Principle 04</div>
+  <div class="principle-title">Celebrate the moment of realisation</div>
+  <p class="principle-body">When the learner says "I see it!" — stop. Let them articulate it. Let them own it. This moment of recognition is more valuable than any lecture.</p>
+</div>
+
+<div class="principle-card">
+  <div class="principle-number">Principle 05</div>
+  <div class="principle-title">Build confidence, not just knowledge</div>
+  <p class="principle-body">The goal is not a learner who knows the Pythagorean theorem. The goal is a learner who believes they are capable of discovering things. That belief changes everything.</p>
+</div>
+
+## A Learner's Story
+
+One of the most meaningful moments of my teaching career came when a learner — a
+professional who had spent years believing she was simply not good at mathematics —
+told me something that I have not forgotten.
+
+After working through a set of carefully designed exercises, she sent me a message
+to say that she had gained enough confidence to start teaching mathematics to her
+young niece. She was not just learning the material. She was beginning to see herself
+differently.
+
+This is what good teaching can do. Not the transfer of content, but the transformation
+of a person's relationship with their own capacity to think.
+
+## The AI Teacher
+
+I am deeply interested in building an **AI teacher** based on this philosophy.
+
+Not an AI that answers questions, but one that asks them. An AI that interacts through
+voice and a visual whiteboard, guiding learners through a designed sequence of
+discoveries. One that knows when to be quiet and let the learner struggle productively.
+One that recognises the moment of discovery and helps the learner articulate what they
+have just understood.
+
+This is technically and pedagogically hard. But I believe it is one of the most
+important things technology could contribute to human learning.
+
+## For Educators and Learners
+
+If you are a teacher or educator interested in this approach, I would be glad to
+exchange ideas. If you are a learner who wants to explore these ideas in practice,
+many of the courses and materials I have developed at CloudxLab are built on this
+philosophy.
+
+And if you are a researcher or technologist interested in building educational AI
+that teaches through discovery rather than content delivery, I would love to connect.
+
+<div style="margin-top:2.5rem;padding:1.5rem 2rem;background:#EEF2FF;border-radius:12px;border:1px solid #DBEAFE">
+  <p style="font-size:0.95rem;font-weight:600;color:#111827;margin:0 0 0.75rem">Explore this further</p>
+  <div style="display:flex;flex-wrap:wrap;gap:0.75rem">
+    <a href="{{ '/essays' | relative_url }}?category=learning-by-inventing" class="btn btn--outline btn--sm">Essays on this topic</a>
+    <a href="{{ site.cloudxlab_url }}" class="btn btn--ghost btn--sm" target="_blank" rel="noopener">Visit CloudxLab</a>
+    <a href="{{ '/contact' | relative_url }}" class="btn btn--ghost btn--sm">Let's talk</a>
+  </div>
+</div>
+
+</div>

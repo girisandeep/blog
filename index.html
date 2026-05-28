@@ -1,0 +1,203 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container-content" style="max-width:740px">
+    <div class="hero-eyebrow">
+      <span class="dot" style="display:inline-block;width:8px;height:8px;background:#2563EB;border-radius:50%"></span>
+      Founder &middot; Teacher &middot; Technologist
+    </div>
+
+    <h1 class="hero-title">Sandeep Giri</h1>
+
+    <p class="hero-subtitle">
+      I write about artificial intelligence, learning by inventing, building trustworthy
+      technology and questioning the assumptions that shape our lives.
+    </p>
+
+    <div class="hero-actions">
+      <a href="{{ '/essays' | relative_url }}" class="btn btn--primary btn--lg">Read my essays</a>
+      <a href="{{ '/about' | relative_url }}" class="btn btn--ghost btn--lg">About me</a>
+    </div>
+
+    <div class="credential-row">
+      <div class="credential-item"><span class="dot"></span>IIT Roorkee</div>
+      <div class="credential-item"><span class="dot"></span>D. E. Shaw &middot; Amazon &middot; InMobi</div>
+      <div class="credential-item"><span class="dot"></span>Founder, CloudxLab</div>
+      <div class="credential-item"><span class="dot"></span>Founder, Terno AI</div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Essays -->
+<section class="section">
+  <div class="container-wide">
+    <div class="section-divider"><h2>Featured Essays</h2></div>
+    <div class="grid-posts">
+      {% assign featured = site.posts | where: "featured", true | limit: 3 %}
+      {% if featured.size == 0 %}
+        {% assign featured = site.posts | limit: 3 %}
+      {% endif %}
+      {% for post in featured %}
+        {% include post-card.html post=post featured=true %}
+      {% endfor %}
+    </div>
+    <div style="text-align:center;margin-top:2.5rem">
+      <a href="{{ '/essays' | relative_url }}" class="btn btn--outline">Browse all essays →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Topics -->
+<section class="section section--alt">
+  <div class="container-wide">
+    <div class="section-divider"><h2>Topics I Write About</h2></div>
+    <div class="grid-categories">
+
+      <a href="{{ '/essays' | relative_url }}?category=ai-and-human-thinking" class="category-card">
+        <div class="category-icon">&#129504;</div>
+        <div class="category-name">AI &amp; Human Thinking</div>
+        <p class="category-desc">How artificial intelligence changes creativity, work, decision-making and the future of original thought.</p>
+      </a>
+
+      <a href="{{ '/learning-by-inventing' | relative_url }}" class="category-card">
+        <div class="category-icon">&#128161;</div>
+        <div class="category-name">Learning by Inventing</div>
+        <p class="category-desc">My teaching philosophy: guide learners through problems until they discover ideas themselves.</p>
+      </a>
+
+      <a href="{{ '/terno-ai' | relative_url }}" class="category-card">
+        <div class="category-icon">&#128202;</div>
+        <div class="category-name">Building Terno AI</div>
+        <p class="category-desc">Enterprise AI, reliable analytics, secure data access and lessons from building a product.</p>
+      </a>
+
+      <a href="{{ '/essays' | relative_url }}?category=agentic-systems" class="category-card">
+        <div class="category-icon">&#129302;</div>
+        <div class="category-name">Agentic Systems</div>
+        <p class="category-desc">Autonomous AI agents, sandboxed code execution, memory, tools and open-source SDKs.</p>
+      </a>
+
+      <a href="{{ '/essays' | relative_url }}?category=founder-journey" class="category-card">
+        <div class="category-icon">&#127758;</div>
+        <div class="category-name">Founder Journey</div>
+        <p class="category-desc">Company-building, product thinking, mentoring engineers and lessons from reinvention.</p>
+      </a>
+
+      <a href="{{ '/essays' | relative_url }}?category=education-and-careers" class="category-card">
+        <div class="category-icon">&#127891;</div>
+        <div class="category-name">Education &amp; Careers</div>
+        <p class="category-desc">Guidance for learners, educators and young technologists entering the world of AI.</p>
+      </a>
+
+      <a href="{{ '/essays' | relative_url }}?category=beyond-common-sense" class="category-card">
+        <div class="category-icon">&#127760;</div>
+        <div class="category-name">Beyond Common Sense</div>
+        <p class="category-desc">Philosophical essays on society, institutions, technology, freedom and unconventional ideas.</p>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- About / Bio -->
+<section class="section">
+  <div class="container-wide">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center">
+
+      <div>
+        <div class="section-divider"><h2>About Me</h2></div>
+        <p style="font-family:'Lora',serif;font-size:1.05rem;line-height:1.8;color:#4B5563;margin-bottom:1.5rem">
+          I am a technologist, educator and entrepreneur working at the intersection of artificial
+          intelligence, data science and human learning. My career has taken me through
+          <strong>D. E. Shaw, Amazon and InMobi</strong>, where I worked on large-scale systems,
+          recommendations and machine learning.
+        </p>
+        <p style="font-family:'Lora',serif;font-size:1.05rem;line-height:1.8;color:#4B5563;margin-bottom:1.5rem">
+          I founded <strong>CloudxLab</strong>, which has helped hundreds of thousands of learners
+          develop skills in AI and data engineering. I am now building <strong>Terno AI</strong>,
+          an enterprise-grade AI data scientist for secure, reliable analytics.
+        </p>
+        <p style="font-family:'Lora',serif;font-size:1.05rem;line-height:1.8;color:#4B5563;margin-bottom:2rem">
+          At the centre of my work is one question: how can we use technology not merely to make
+          existing systems faster, but to help build a better human future?
+        </p>
+        <a href="{{ '/about' | relative_url }}" class="btn btn--outline">Read my full story →</a>
+      </div>
+
+      <div style="display:flex;flex-direction:column;gap:1.5rem">
+
+        <div class="feature-block" style="padding:1.5rem 2rem">
+          <div class="feature-label">Learning by Inventing</div>
+          <div class="feature-title" style="font-size:1.2rem;margin-bottom:0.75rem">Teaching through discovery</div>
+          <p class="feature-body" style="font-size:0.9rem;margin-bottom:1rem">
+            Guide learners through carefully designed problems until they discover important
+            ideas for themselves. Confidence follows understanding; understanding follows discovery.
+          </p>
+          <a href="{{ '/learning-by-inventing' | relative_url }}" class="btn btn--ghost btn--sm">Explore the philosophy →</a>
+        </div>
+
+        <div class="feature-block" style="padding:1.5rem 2rem;background:#EEF2FF">
+          <div class="feature-label">Terno AI</div>
+          <div class="feature-title" style="font-size:1.2rem;margin-bottom:0.75rem">AI data scientist for enterprises</div>
+          <p class="feature-body" style="font-size:0.9rem;margin-bottom:1rem">
+            Ask questions about your business data in natural language. Get reliable,
+            reproducible answers through secure code execution — not plausible-sounding guesses.
+          </p>
+          <a href="{{ '/terno-ai' | relative_url }}" class="btn btn--ghost btn--sm">Learn about Terno AI →</a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Recent Essays -->
+<section class="section section--alt">
+  <div class="container-wide">
+    <div class="section-divider"><h2>Recent Writing</h2></div>
+    <div style="display:flex;flex-direction:column;gap:0">
+      {% for post in site.posts limit: 6 %}
+      <a href="{{ post.url | relative_url }}" style="display:flex;justify-content:space-between;align-items:baseline;padding:1.25rem 0;border-bottom:1px solid #E5E7EB;text-decoration:none;color:inherit;transition:color 150ms ease" onmouseover="this.querySelector('.essay-title').style.color='#2563EB'" onmouseout="this.querySelector('.essay-title').style.color='#111827'">
+        <div>
+          <span style="font-size:0.7rem;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#2563EB;margin-right:0.75rem">
+            {{ post.category | default: post.categories[0] | replace: '-', ' ' }}
+          </span>
+          <span class="essay-title" style="font-weight:600;color:#111827;transition:color 150ms ease">{{ post.title }}</span>
+        </div>
+        <time style="font-size:0.8rem;color:#9CA3AF;white-space:nowrap;margin-left:1.5rem">{{ post.date | date: "%b %Y" }}</time>
+      </a>
+      {% endfor %}
+    </div>
+    <div style="text-align:center;margin-top:2rem">
+      <a href="{{ '/essays' | relative_url }}" class="btn btn--outline">All essays →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Connect CTA -->
+<section class="section">
+  <div class="container-wide">
+    <div class="cta-strip">
+      <h2 class="cta-title">Let's think together</h2>
+      <p class="cta-body">
+        I enjoy connecting with learners, educators, founders, researchers and enterprise leaders
+        working on meaningful applications of artificial intelligence.
+      </p>
+      <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
+        <a href="{{ '/contact' | relative_url }}" class="btn btn--primary">Get in touch</a>
+        <a href="{{ '/essays' | relative_url }}" class="btn" style="background:rgba(255,255,255,0.1);color:white;border-color:rgba(255,255,255,0.3)">Read my essays</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+@media (max-width: 768px) {
+  .about-grid { grid-template-columns: 1fr !important; }
+}
+</style>
