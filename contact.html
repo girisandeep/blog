@@ -99,13 +99,27 @@ permalink: /contact/
       </div>
 
       <div>
-        <a href="mailto:{{ site.author.email }}" class="contact-item">
+        <div id="js-email-row" class="contact-item" style="cursor:pointer" role="link" tabindex="0">
           <div class="contact-icon">&#9993;</div>
           <div>
             <div class="contact-label">Email</div>
-            <div class="contact-value">{{ site.author.email }}</div>
+            <div class="contact-value" id="js-email-val">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div>
           </div>
-        </a>
+        </div>
+        <script>
+        (function() {
+          var a = ['san','dee','pgi','ri'].join('');
+          var b = String.fromCharCode(64);
+          var c = ['gm','ai','l'].join('') + String.fromCharCode(46) + 'com';
+          var addr = a + b + c;
+          var row  = document.getElementById('js-email-row');
+          var val  = document.getElementById('js-email-val');
+          if (!row || !val) return;
+          val.textContent = addr;
+          row.addEventListener('click', function() { window.location.href = 'mai'+'lto:'+addr; });
+          row.addEventListener('keydown', function(e) { if (e.key==='Enter') window.location.href = 'mai'+'lto:'+addr; });
+        })();
+        </script>
 
         <a href="{{ site.author.linkedin }}" class="contact-item" target="_blank" rel="noopener">
           <div class="contact-icon">&#128101;</div>

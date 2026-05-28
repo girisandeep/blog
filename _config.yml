@@ -10,7 +10,7 @@ baseurl: ""
 
 author:
   name: Sandeep Giri
-  email: sandeepgiri@gmail.com
+  # email omitted — rendered via JS in contact.html to prevent harvesting
   linkedin: "https://www.linkedin.com/in/girisandeep/"
   github: "https://github.com/girisandeep"
   twitter: "https://x.com/sandeepgiri"
