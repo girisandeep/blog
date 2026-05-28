@@ -5,8 +5,8 @@ description: >-
   learning by inventing, secure enterprise analytics, entrepreneurship and ideas that
   challenge conventional thinking.
 
-url: "https://sandeepgiri.github.io"
-baseurl: ""
+url: "https://girisandeep.github.io"
+baseurl: "/blog"
 
 author:
   name: Sandeep Giri
@@ -75,3 +75,4 @@ exclude:
   - .bundle
   - .jekyll-cache
   - README.md
+  - dev_notes.md

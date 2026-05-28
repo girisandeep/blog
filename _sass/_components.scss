@@ -78,13 +78,13 @@
   &:hover {
     background: $bg-accent;
     color: $accent;
-    border-color: darken($bg-accent, 5%);
+    border-color: #FBBF24;
   }
 
   &--accent {
     background: $bg-accent;
     color: $accent;
-    border-color: darken($bg-accent, 5%);
+    border-color: #FBBF24;
   }
 }
 
