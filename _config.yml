@@ -23,9 +23,9 @@ calendly_url: "https://calendly.com/sandeepgiri/30min"
 # Steps: 1) enable Discussions on github.com/girisandeep/blog (Settings → Features)
 #        2) visit giscus.app, enter "girisandeep/blog", pick Announcements category, copy the two IDs below
 giscus:
-  repo_id: ""       # e.g. "R_kgDO..."
+  repo_id: "R_kgDOSp-w4g"
   category: "Announcements"
-  category_id: ""   # e.g. "DIC_kwDO..."
+  category_id: "DIC_kwDOSp-w4s4C_e_X"
 
 # Build settings
 markdown: kramdown
