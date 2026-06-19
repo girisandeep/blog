@@ -56,6 +56,11 @@
 </script>
 {% endif %}
 
+<!-- Applause button (post pages only) -->
+{% if page.layout == 'post' %}
+<link rel="stylesheet" href="https://unpkg.com/applause-button/dist/applause-button.css">
+{% endif %}
+
 <!-- MathJax for mathematical notation -->
 {% if page.math %}
 <script>

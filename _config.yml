@@ -19,6 +19,14 @@ cloudxlab_url: "https://cloudxlab.com/"
 terno_url: "https://terno.ai/"
 calendly_url: "https://calendly.com/sandeepgiri/30min"
 
+# Giscus comments — fill in repo_id and category_id from https://giscus.app
+# Steps: 1) enable Discussions on github.com/girisandeep/blog (Settings → Features)
+#        2) visit giscus.app, enter "girisandeep/blog", pick Announcements category, copy the two IDs below
+giscus:
+  repo_id: ""       # e.g. "R_kgDO..."
+  category: "Announcements"
+  category_id: ""   # e.g. "DIC_kwDO..."
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

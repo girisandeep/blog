@@ -56,6 +56,15 @@ layout: default
     <div class="prose">
       {{ content }}
     </div>
+
+    <!-- Applause button -->
+    <div style="text-align:center;padding:3rem 0 1.5rem;border-top:1px solid #F0EBE3;margin-top:3rem">
+      <applause-button color="#B45309" multiclap="true" style="width:58px;height:58px;--applause-button-color:#B45309"></applause-button>
+      <p style="font-size:0.78rem;color:#A8A29E;margin-top:0.75rem;font-family:'Inter',sans-serif;letter-spacing:0.02em">
+        If this essay resonated, tap to applaud
+      </p>
+    </div>
+    <script src="https://unpkg.com/applause-button/dist/applause-button.js"></script>
   </div>
 
   <footer class="post-footer">
@@ -85,6 +94,28 @@ layout: default
         </div>
       </div>
       {% endif %}
+      {% endif %}
+
+      <!-- Giscus comments (active once repo_id and category_id are set in _config.yml) -->
+      {% if site.giscus.repo_id and site.giscus.repo_id != "" %}
+      <div style="margin-top:4rem;padding-top:3rem;border-top:1px solid #E7E0D5">
+        <h2 style="font-size:1.15rem;font-weight:700;color:#1C1917;margin-bottom:1.75rem;font-family:'Inter',sans-serif;letter-spacing:-0.01em">Discussion</h2>
+        <script src="https://giscus.app/client.js"
+          data-repo="girisandeep/blog"
+          data-repo-id="{{ site.giscus.repo_id }}"
+          data-category="{{ site.giscus.category }}"
+          data-category-id="{{ site.giscus.category_id }}"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="top"
+          data-theme="light"
+          data-lang="en"
+          crossorigin="anonymous"
+          async>
+        </script>
+      </div>
       {% endif %}
     </div>
   </footer>
