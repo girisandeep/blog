@@ -27,6 +27,9 @@ giscus:
   category: "Announcements"
   category_id: "DIC_kwDOSp-w4s4C_e_X"
 
+# Google Analytics 4
+google_analytics: "G-9TZCPED97E"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
