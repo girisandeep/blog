@@ -49,7 +49,7 @@ Recently, I built several AI-powered learning tools for mathematics: a digital w
   <p style="font-size:0.9rem;font-weight:700;color:#1C1917;margin:0 0 1rem;font-family:'Inter',sans-serif">Try these tools</p>
   <ul style="margin:0;padding-left:1.25rem;font-family:'Lora',serif;font-size:0.92rem;line-height:1.9;color:#374151">
     <li><a href="https://girisandeep.github.io/math_exercises/" target="_blank" rel="noopener" style="color:#B45309">Maths exercises</a> — area, geometry, number systems and more</li>
-    <li><a href="https://cloudxlab.github.io/learnbyinventing/" target="_blank" rel="noopener" style="color:#B45309">Coding &amp; ML exercises</a> — algorithms and machine learning through guided discovery</li>
+    <li><a href="https://learnbyinventing.com" target="_blank" rel="noopener" style="color:#B45309">Coding &amp; ML exercises</a> — algorithms and machine learning through guided discovery</li>
     <li><a href="https://cloudxlab.com/events/209/learn-by-inventing-agentic-ai-gen-ai/" target="_blank" rel="noopener" style="color:#B45309">Free introductory session</a> — Learn by Inventing: Agentic AI &amp; Gen AI</li>
     <li><a href="https://cloudxlab.com/ai_ml_certificate_program" target="_blank" rel="noopener" style="color:#B45309">Algorithm Design course</a> — AI &amp; ML certificate programme at CloudxLab</li>
   </ul>
