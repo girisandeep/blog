@@ -2,7 +2,7 @@
 layout: post
 title: "A World Without Countries"
 category: "Beyond Common Sense"
-tags: [society, nations, philosophy, future, institutions]
+tags: [society, nations, philosophy, future, institutions, oneness]
 excerpt: >
   Nations feel permanent because they have been present for every moment of our
   individual lives. But the nation-state is a surprisingly recent invention. What

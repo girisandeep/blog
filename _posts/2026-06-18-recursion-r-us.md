@@ -2,7 +2,7 @@
 layout: post
 title: "Recursion R Us"
 category: "Beyond Common Sense"
-tags: [recursion, philosophy, ai, technology, creation]
+tags: [recursion, philosophy, ai, technology, creation, oneness]
 excerpt: >
   My son asked me how things are made. The answer I gave him has stayed with me ever since:
   recursion. Life, knowledge, language, intelligence — each creates the next version of itself.

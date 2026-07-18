@@ -2,7 +2,7 @@
 layout: post
 title: "We Are Far Closer Than We Imagine"
 category: "Beyond Common Sense"
-tags: [evolution, epigenetics, kinship, philosophy, mathematics, humanity]
+tags: [evolution, epigenetics, kinship, philosophy, mathematics, humanity, oneness]
 math: true
 excerpt: >
   We are born with the infrastructure for love, for family, for belonging. And when
