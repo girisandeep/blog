@@ -20,8 +20,6 @@ We were not blank slates. *Tabula rasa* was a nice theory. It was wrong.
 
 We are born with the infrastructure for language. For love. For belonging. For recognising family. Nobody teaches a child what a mother is. They already know.
 
----
-
 A child inherits traits from both parents — but not randomly. Random variation only happens where the parents differ. Where they agree, the trait passes through unchanged. Nature seems to know the difference between what is negotiable and what is not.
 
 And here is something that surprised me when I first learned it: we also pass on something of what we lived through.
@@ -34,8 +32,6 @@ Your learning since childhood. Your parents' learning. Their parents'. Their par
 
 You have, in some sense, lived billions of lives.
 
----
-
 Now let me show you something with arithmetic.
 
 You have 2 parents. 4 grandparents. 8 great-grandparents.
@@ -46,7 +42,7 @@ Go back 100 generations — roughly 2,500 years, to around the time of Socrates,
 
 $$2^{100}$$
 
-That's about a 1 followed by 30 zeros.
+That is about a 1 followed by 30 zeros.
 
 The total number of humans who have ever lived on Earth is estimated at around 100 billion — a 1 followed by 11 zeros.
 
@@ -55,8 +51,6 @@ So your theoretical ancestor count, just 2,500 years back, is a billion billion 
 Which means only one thing is possible: the same people appear over and over again in everyone's family tree. The branches loop back. They cross. They merge. What looks like separate lineages is actually the same small pool of people, shared by all of us.
 
 The family tree is not a tree that keeps spreading outward. It folds back in on itself.
-
----
 
 What this means is simple, though it takes a moment to land.
 
