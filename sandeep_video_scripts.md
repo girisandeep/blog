@@ -2,6 +2,118 @@
 
 ---
 
+## Script 2: TEDx Speaker Reel — "The Most Powerful Thing a Teacher Can Do Is Say Nothing"
+
+**Format:** Talking head, direct to camera
+**Runtime:** ~4 minutes
+**Purpose:** TEDx application speaker reel (doubles as first YouTube video)
+**Idea worth spreading:** "The most powerful thing a teacher can do is say nothing."
+
+---
+
+**[HOOK — 0:00–0:30]**
+
+Let me ask you something.
+
+What is the area of a triangle?
+
+You probably just remembered a formula. Base times height, divided by two.
+
+Now — do you remember where that formula came from? Do you know *why* it works?
+
+Most people don't.
+
+And that is the entire problem with how we teach.
+
+---
+
+**[WHO I AM — 0:30–0:50]**
+
+I've taught hundreds of thousands of people online — mathematics, programming, machine learning — through a company I founded after working at Amazon and D.E. Shaw. I have watched people encounter difficult ideas for the first time, from every background, at every age.
+
+And I have learned one thing that has changed everything about how I teach.
+
+---
+
+**[THE IDEA — 0:50–1:15]**
+
+The most powerful thing a teacher can do is say nothing.
+
+Not because silence is mystical. But because the moment you give someone the answer, you have stolen from them the experience of finding it.
+
+And that experience — that specific moment of discovery — is the only thing that creates a real learner.
+
+---
+
+**[THE DEMONSTRATION — 1:15–2:45]**
+
+Let me show you what I mean.
+
+Instead of telling a child the Pythagorean theorem, I give them a piece of grid paper and ask one question:
+
+*"Draw a right triangle. Build a square on each of its three sides. What do you notice about the areas?"*
+
+Nothing else. No hint. No formula.
+
+They count squares. They measure. They try different triangles. They frown.
+
+And then — usually around the fourth or fifth attempt — something happens. Their hand stops moving. Their eyes change.
+
+And they say: *"Wait. The big square always equals the other two added together."*
+
+That moment.
+
+That is not a student remembering something. That is a student *discovering* something.
+
+They will never forget it. Not because I taught it well. But because I did not teach it at all.
+
+I have seen this with six-year-olds learning geometry. With engineers learning neural networks. With professionals who had spent years believing they were simply not good at mathematics — who, after one session like this, went home and started teaching their own children.
+
+The method is not new. Socrates used it 2,500 years ago. We put it in philosophy textbooks and largely stopped using it in classrooms.
+
+---
+
+**[WHY NOW — 2:45–3:30]**
+
+Right now, AI can answer almost any question faster than any teacher.
+
+Every formula, every explanation, every definition — available instantly.
+
+Which means the one thing education can no longer sell is answers.
+
+What it must now provide — what it has always been meant to provide, but rarely has — is the experience of discovery itself. The confidence of having found something yourself. The identity of someone who is capable of original thought.
+
+A student who has only ever received answers will be lost in a world where answers are free.
+
+A student who knows how to discover — who has felt that shift, that moment when the pattern suddenly clicks — that student is ready for anything.
+
+---
+
+**[CLOSE — 3:30–4:00]**
+
+I believe the most important thing we can build right now — more important than any AI tool, more important than any curriculum reform — is a generation of learners who do not need to be told what to think.
+
+And the way to build that generation is beautifully simple.
+
+Stop telling them. Start asking.
+
+And then —
+
+be quiet.
+
+---
+
+**Production notes:**
+- Shoot in one take if you can — slight imperfections make it feel honest, not rehearsed
+- Pause genuinely after "What do you notice about the areas?" — let the silence land
+- The final three lines should be slow, one breath each, with a real pause before "be quiet"
+- Plain background or whiteboard; no slides needed
+- 1080p phone camera on a tripod is fine
+
+---
+
+---
+
 ## Script 1: Free AI & ML Course — Learn by Inventing
 
 **Format:** Talking head
