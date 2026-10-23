@@ -1,237 +1,328 @@
 ---
 layout: post
-title: "The Problem With Education Isn't a Lack of Knowledge. It's an Abundance of It."
+title: "The Problem Is Not a Lack of Knowledge, but an Abundance of It"
 category: "Learning by Inventing"
 tags: [education, learning-by-inventing, discovery, teaching, independent-thinking, confidence]
 excerpt: >
-  We have become remarkably good at teaching children what humanity already knows.
-  But are we teaching them how to figure things out for themselves?
+  Since childhood, we have been constantly receiving knowledge from different people.
+  But somewhere in this process, we overlook something remarkable: we humans are
+  naturally capable of figuring things out for ourselves.
 ---
 
-My son once desperately wanted a toy. I bought it for him, and within a day, he had lost interest.
+The problem with the world is not a lack of knowledge, but an abundance of it.
 
-At first, I found this puzzling. But then I began to wonder whether the toy had simply become predictable. He had explored its possibilities, figured out how it worked, and moved on. There was nothing particularly mysterious left to discover.
+Since childhood, we have been constantly receiving knowledge from different people, in different forms.
 
-What struck me was not how quickly he became bored, but what his boredom might reveal about the human mind.
+Our parents, siblings, relatives, friends, teachers, schools... the list goes on.
 
-We are naturally curious creatures. We are drawn toward things we don't understand, and we derive satisfaction from making sense of them. A child learning to play a new game doesn't begin by studying a textbook. They experiment, make mistakes, recognize patterns and gradually figure out the rules.
+We spend nearly 25 years in schools and colleges, absorbing all sorts of knowledge.
 
-Consider something even more extraordinary: language.
+Of course, to navigate this complex world, we need to learn a lot.
 
-A young child can acquire an astonishingly complex linguistic system without being formally taught grammar. Through exposure, interaction and experimentation, children learn to recognize patterns, construct sentences and communicate increasingly sophisticated ideas.
+But somewhere in this process, we overlook something remarkable.
 
-We are born with remarkable machinery for learning.
+**We humans are naturally capable of figuring things out for ourselves.**
 
-Yet much of formal education seems organized around a different assumption: that knowledge must be delivered to us by someone who already possesses it.
+Think about a child.
 
-From childhood, we are surrounded by people eager to teach us something. Parents, relatives, friends, teachers and institutions supply a continuous stream of information. We spend much of our first 25 years in classrooms, receiving explanations, memorizing formulas and preparing to reproduce what we have been taught.
+A child can learn any human language they grow up surrounded by. Without formal lessons in grammar, they gradually discover patterns, construct rules, recognize exceptions, and learn to express extraordinarily complex ideas.
 
-There is nothing inherently wrong with this. Civilization depends on the transmission of knowledge. We could hardly make progress if every generation had to rediscover everything from scratch.
+Children learn about the world by observing, experimenting, making mistakes, and trying again.
 
-But I worry that in our enthusiasm for passing on what we know, we have neglected something equally important: the human capacity to discover.
+We are born with an extraordinary ability to learn.
 
-**We have become so accustomed to giving children answers that we often deny them the experience of finding those answers themselves.**
+And we possess another superpower: the ability to recognize what we don't know.
 
-And the consequences may extend far beyond the classroom.
+That's curiosity. And it comes naturally to us.
 
-## Knowing an Answer Is Not the Same as Understanding It
+My son once wanted a toy. I bought it for him, and within a day, he was bored of it.
 
-Think about how mathematics is commonly taught.
+Why?
 
-A teacher introduces a formula, demonstrates its application and assigns problems designed to reinforce it. Students who remember the formula and apply it correctly are considered successful.
+Because the toy had become predictable. He had figured it out. There was little new left for him to discover.
 
-But there is a fundamental difference between knowing a formula and understanding why it works.
+Think about how remarkable that is.
 
-Memorization has enormous value. It gives us speed. A mathematician shouldn't have to derive every familiar identity each time it is needed.
+We are naturally driven to explore the unknown. Once something becomes predictable, our curiosity often pushes us toward something new.
 
-But derivation gives us something different: an understanding of the reasoning that produced the formula in the first place.
+A child can figure out how to play many games simply by trying, failing, observing, and trying again.
 
-When we reconstruct an idea ourselves, we become familiar with its assumptions, its limitations and the problems it was designed to solve. We are better positioned to recognize when it might be useful elsewhere — or when it might need to be modified.
+**So, where does the problem begin?**
 
-Consider two students learning an algorithm called backtracking.
+The problem begins when we start giving children answers before they have had a chance to discover them.
 
-One receives an explanation of how backtracking works and learns to apply it to Sudoku. The other is given a carefully designed series of puzzles and gradually discovers the underlying strategy: try a possibility, follow its consequences and, when it leads to a dead end, return to an earlier decision.
+We explain concepts, demonstrate solutions, and ask children to remember what we have taught them.
 
-Both may become competent Sudoku solvers.
+Through repeated lectures and reinforcement of our own ideas, we gradually train children to receive knowledge rather than discover it.
 
-But suppose they are then given a different puzzle, such as the eight queens problem, in which eight queens must be placed on a chessboard without attacking one another.
+We make them believe that receiving knowledge is the same as learning.
 
-The student who independently developed the strategy may be especially well prepared to recognize the connection. Having experienced the reasoning that led to backtracking, the student has practiced more than the execution of an algorithm. They have practiced its invention.
+And slowly, we make them abandon their own ideas.
 
-This doesn't guarantee better performance. A well-taught explanation can also produce deep understanding. But it illustrates what I believe conventional education too often overlooks.
+Without realizing it, we repeatedly communicate a message:
 
-**The purpose of learning should not merely be to acquire solutions. It should also be to develop the ability to create them.**
+*"You cannot figure things out on your own. Follow me. Memorize what I am telling you."*
 
-That distinction becomes especially important when we encounter problems for which no familiar solution exists.
+Eventually, children begin to believe that learning means memorizing rules, formulas, facts, and explanations provided by someone else.
 
-## What Happens When We Stop Trusting Our Own Thinking?
+Now, there is nothing wrong with memorization.
 
-Life rarely presents problems in the orderly form of a classroom exercise.
+**Memorization gives us speed. Derivation gives us understanding.**
 
-We face uncertainty, conflicting advice, difficult decisions and circumstances that nobody has prepared us for. Sometimes the knowledge we have accumulated serves us well. At other times, the situation is genuinely unfamiliar.
+We don't need to reinvent a formula every time we use it. But we should understand why it works.
 
-What do we do then?
+When we derive a formula ourselves, we understand not just what it says, but the reasoning behind it.
 
-I worry that an education built primarily around receiving answers can encourage a particular habit of mind: searching for something we have previously been told rather than attempting to reason through the problem ourselves.
+And when we encounter an unfamiliar problem, that understanding gives us the ability to go beyond what we have memorized.
 
-When no familiar answer appears, we may conclude that we are incapable of solving it.
+The problem begins when we mistake remembering an answer for understanding an idea.
 
-That loss of confidence matters.
+And this habit doesn't necessarily stop at school.
 
-Human beings face extraordinary adversity: disease, poverty, grief, uncertainty and problems that sometimes have no satisfactory solution. Independent reasoning cannot eliminate these realities. But it can help us explore possibilities, evaluate alternatives and respond creatively to circumstances we cannot fully control.
+As adults, we encounter situations that nobody has prepared us for. We search our memories for something we have been told before and try to fit those ideas onto our lives.
 
-The ability to say, "I don't know how to solve this, but perhaps I can figure something out," is a profound resource.
+Sometimes, the existing knowledge is useful.
 
-I believe education should cultivate that confidence rather than undermine it.
+But what happens when no familiar pattern fits?
 
-For the past 12 years, I have been experimenting with an approach to teaching built around this conviction.
+What happens when we face a problem nobody has taught us how to solve?
+
+We may have accumulated enormous knowledge without developing confidence in our own ability to figure things out.
+
+And that is a terrible loss.
+
+Life is hard.
+
+We face disease, poverty, uncertainty, loss, and countless other adversities. Sometimes, there is no solution.
+
+But humans possess a remarkable ability to confront unfamiliar problems, reason from first principles, and discover creative solutions.
+
+When we lose confidence in that ability, we lose something precious.
+
+Instead of exploring possibilities, we look for ready-made answers. Instead of trusting our judgment, we become dependent on others to tell us what to do.
+
+And when no ready-made answer exists, we may feel helpless.
+
+I believe this loss of confidence in our own thinking contributes enormously to human suffering.
+
+**Education should strengthen our ability to face the unknown, not make us afraid of it.**
+
+## Learning by Inventing
+
+For the past 12 years, I have been experimenting with a different approach to teaching.
 
 I call it **Learning by Inventing**.
 
-Its central principle is simple: Don't teach learners what they can discover for themselves.
+The idea is simple.
 
-Instead of beginning with an explanation, begin with a problem.
+**Don't teach children what they can discover for themselves.**
 
-Not a difficult problem designed to test how much the learner already knows, but a deceptively simple one that invites experimentation.
+Instead of delivering lectures, turn concepts into a sequence of simple, carefully designed exercises.
 
-Then introduce another problem, slightly more challenging than the first. And another.
+Let learners discover abstract ideas by solving concrete problems.
 
-With the right sequence, learners can gradually discover concepts that might otherwise appear intimidatingly abstract. They can invent elementary versions of formulas, algorithms and mathematical principles before encountering their formal definitions.
+Let them invent the formulas, rules, algorithms, and principles that we would otherwise ask them to memorize.
 
-The teacher's responsibility is not primarily to deliver knowledge. It is to create the conditions in which understanding can emerge.
+Instead of telling a child what to do, ask them what they would do.
 
-## The Teacher as a Personal Trainer
+A great lecture is not necessarily one that explains everything beautifully. It is one that makes learners curious enough to experiment, question, and figure things out for themselves.
 
-I often think of this approach as the intellectual equivalent of going to the gym.
+I fundamentally believe that if one human being can understand an idea, we should strive to make that idea understandable to others.
 
-Imagine someone who cannot perform a single push-up.
+Of course, we are all different. We have different strengths, limitations, experiences, and learning speeds.
 
-A good trainer doesn't demonstrate 100 push-ups, explain the biomechanics in exquisite detail and then express disappointment when the beginner fails.
+But I believe we vastly underestimate how much a child is capable of understanding.
 
-The trainer starts with something manageable: perhaps a wall push-up. Later, a knee push-up. Eventually, a full push-up.
+The responsibility of someone who deeply understands a subject is to break it into a sequence of exercises through which others can gradually discover its principles.
 
-The objective is not to demonstrate the trainer's strength. It is to develop the student's.
+Not everything can be derived through reasoning alone. Some scientific discoveries required experiments that challenged everything we previously believed.
 
-Why should intellectual development be different?
+In such cases, we must learn from observations and evidence. But even then, we can reason about their implications and reconstruct the ideas built upon them.
 
-When a child cannot solve a problem, my first instinct is not to explain the solution. It is to ask whether I have made the problem too difficult.
+Learning by Inventing doesn't mean reinventing every discovery in human history.
 
-Perhaps I need to break it into smaller parts. Perhaps I need to introduce a simpler exercise that builds the missing intuition.
+It means giving learners the opportunity to reconstruct the reasoning behind our knowledge, rather than merely memorizing its conclusions.
 
-The teacher should be willing to say, "I may have made a mistake in choosing this problem. Let me find an easier one."
+### Learning is like going to the gym
 
-There should be no anger, no disappointment and no implication that the learner's difficulty reflects a lack of intelligence.
+Think of learning as going to the gym.
 
-I believe we vastly underestimate what children can understand when we give them the right opportunities to learn.
+At the gym, nobody expects you to lift the heaviest weights on your first day.
 
-Of course, children differ in their abilities, circumstances and learning speeds. Not every learner will follow the same path. But those differences should make us more thoughtful about designing learning experiences, not quicker to dismiss someone's potential.
+If you cannot do a push-up, a good trainer doesn't demonstrate a hundred push-ups and ask you to memorize the movements.
 
-A good teacher needs enormous patience.
+They might start you with wall push-ups. Then knee push-ups. And gradually, you develop the strength to do a full push-up.
 
-And a learner should not measure progress by comparing themselves with the fastest student in the room. The meaningful comparison is with their own abilities yesterday.
+Learning should work the same way.
 
-This brings me to another lesson I learned at the gym.
+If a child cannot solve a problem, it doesn't mean the child is incapable.
 
-When I first started exercising, my instructor would celebrate my progress. Sometimes he would even clap.
+It means we need to find a simpler problem they can solve and gradually build from there.
 
-At the beginning, that encouragement mattered. It made me feel good about my effort and motivated me to continue.
+And if they still struggle, make the problem simpler again.
 
-But something changed over time.
+Every exercise should look deceptively easy.
 
-I began to enjoy exercising for its own sake. I developed a stronger connection with my body and found satisfaction in the process of becoming fitter. Eventually, I no longer needed my instructor's appreciation.
+The instructor must have enormous patience. They should never show anger or disappointment when a learner cannot solve something.
 
-I believe something similar can happen with learning.
+Instead, they should say:
 
-At first, a child may need genuine encouragement. A teacher should recognize small discoveries and help learners notice their own progress.
+*"Perhaps I made the problem too difficult. Let me find a simpler one."*
 
-But eventually, the satisfaction of figuring something out can become its own reward.
+The responsibility is on the teacher to design the right exercises.
 
-The child who once needed reassurance begins approaching problems out of curiosity.
+And just as you wouldn't judge your fitness by comparing yourself with the strongest person at the gym, you shouldn't judge your intelligence by comparing yourself with another learner.
 
-The teacher becomes less necessary.
+**Your competition is with who you were yesterday.**
 
-To me, that is an important measure of educational success: **not how much students admire their teacher, but how much confidence they develop in their own ability to learn.**
+Every problem you solve is an exercise for your mind. Every discovery is an opportunity to strengthen your confidence in your own thinking.
 
-## We Don't Need to Reinvent Everything
+The objective is not to prove how intelligent you already are.
 
-One objection to Learning by Inventing is that it sounds terribly inefficient.
+It is to develop what you are capable of becoming.
 
-Why spend hours discovering something that an expert could explain in minutes?
+### From external appreciation to the joy of discovery
 
-My answer is that the objective is not simply to acquire information as quickly as possible. It is to develop understanding and the capacity for independent reasoning.
+There is another important part of this process.
 
-Nor am I suggesting that students should recreate every scientific discovery or reject the accumulated knowledge of humanity.
+Celebrate every discovery.
+
+In the beginning, learners may need encouragement. Appreciate their effort, recognize their progress, and genuinely celebrate what they accomplish.
+
+I remember when I started going to the gym.
+
+My instructor would appreciate my progress. Sometimes, he would even clap.
+
+That encouragement felt good. It motivated me to continue.
+
+But something interesting happened over time.
+
+I began to enjoy exercising itself. I developed a mind-to-muscle connection and started experiencing the joy of becoming stronger.
+
+Eventually, I no longer needed my instructor's appreciation.
+
+Learning can follow a similar path.
+
+Initially, a child may enjoy the appreciation that comes from solving a problem.
+
+But as they repeatedly experience the satisfaction of figuring things out, discovery itself can become rewarding.
+
+They begin to associate effort with progress, and progress with joy.
+
+Gradually, the teacher's encouragement becomes less necessary.
+
+**The ultimate success of a teacher is when the learner no longer needs the teacher's approval to feel successful.**
+
+Because something profound happens when a child figures something out independently.
+
+They don't just learn a fact or a formula.
+
+They learn that they are capable of figuring things out.
+
+And that belief can change their relationship with learning.
+
+### Understanding is different from knowing
+
+Imagine two children learning to solve Sudoku using backtracking.
+
+The first child is given an algorithm and an explanation of how it works.
+
+The second child is given a carefully designed sequence of problems through which they gradually invent backtracking themselves.
+
+Both children may eventually solve Sudoku.
+
+But what happens when we give them a seemingly unrelated problem, such as the eight queens puzzle?
+
+The first child might remember backtracking as a technique for solving Sudoku.
+
+The second child has experienced the process of inventing the technique.
+
+They have explored possibilities, encountered dead ends, and discovered why returning to earlier decisions can help.
+
+They may be better equipped to recognize the same underlying structure in a completely different problem.
+
+And even if they forget the algorithm, they have practiced the reasoning that could allow them to reconstruct it.
+
+This is what I find so fascinating about discovery-based learning.
+
+The objective is not merely to remember solutions.
+
+**It is to develop the ability to create solutions to problems we have never encountered before.**
+
+### Learning by Inventing doesn't mean rejecting existing knowledge
 
 Quite the opposite.
 
-Consider someone learning linear regression, one of the foundational techniques of machine learning.
+It helps us appreciate existing knowledge more deeply.
 
-They could import a software library, call a function and obtain a predictive model within seconds.
+Imagine learning linear regression.
 
-Or they could begin with a handful of data points and ask a deceptively simple question: How might I find a line that best represents these observations?
+One approach is to import a library, call a function, and obtain a model.
 
-Through experimentation, they might discover the idea of measuring prediction errors and adjusting a line to reduce them.
+Another approach is to start with a few data points and try to invent a method for finding the line that best fits them.
 
-They would have invented a rudimentary version of linear regression.
+Through a sequence of simple exercises, you might discover the idea of measuring prediction errors and gradually improving a model.
 
-When they eventually encounter a professional library, they can appreciate what its designers have accomplished. They have a conceptual foundation for understanding its capabilities, assumptions and limitations.
+Once you've invented a simple version yourself, you can appreciate the sophistication of a professional library.
 
-They don't need to reinvent the library.
+You understand what it is doing, why it works, and some of the situations in which it might fail.
 
-They need to invent just enough to understand the ideas on which it was built.
+You don't need to reinvent the entire library.
 
-This distinction matters because independent thinking is often confused with refusing to accept other people's knowledge.
+**You need to invent just enough to understand the ideas on which everything else is built.**
 
-That is not what I am advocating.
+Independent thinking doesn't mean refusing to learn from others.
 
-An independent thinker is someone who can understand others' ideas, evaluate the reasoning behind them, recognize their limitations and build upon them.
+It means developing the ability to understand, evaluate, and build upon their ideas.
 
-Sometimes the right decision is to trust an expert. Sometimes it is to question an assumption. And sometimes it is to recognize that existing knowledge doesn't adequately address the problem at hand.
+### Life doesn't come with a textbook
 
-Good judgment requires knowing the difference.
+And this brings me to something even more important.
 
-## Life Doesn't Come With a Textbook
+Life is much more complex than any classroom.
 
-There is a larger ambition behind Learning by Inventing.
+It presents unfamiliar problems, uncertain situations, and challenges for which nobody has prepared an answer.
 
-I don't want children merely to become better mathematicians, programmers or scientists.
+Imagine someone entering a difficult negotiation.
 
-I want them to become more capable of navigating life.
+They might recognize that a decision tree, something they once invented while solving a mathematical problem, could help them evaluate their choices.
 
-Imagine someone facing a difficult negotiation. They might recognize that a decision tree, a concept they once independently developed while solving a mathematical problem, could help them think through possible choices and consequences.
+Or perhaps none of the tools they know quite fits the situation.
 
-Or perhaps the situation requires an entirely different approach, one they have never encountered before.
+Then they can invent a new approach.
 
-I want them to feel capable of developing that approach.
+Of course, being able to solve mathematical problems doesn't automatically make someone good at negotiations or relationships.
 
-Of course, expertise in mathematics does not automatically translate into wisdom about relationships, negotiations or human behavior. Real-world problems involve emotions, uncertainty, conflicting interests and incomplete information.
+That is why Learning by Inventing should not be limited to mathematics or science.
 
-That is precisely why discovery-based learning should extend beyond mathematics and science.
+We should design discovery-based exercises around real-life problems too: making decisions under uncertainty, evaluating conflicting claims, understanding human behavior, and navigating difficult choices.
 
-We should design exercises around evaluating conflicting claims, making decisions under uncertainty, understanding human behavior and reasoning through difficult choices.
+The goal is to practice reasoning across different domains, recognizing common patterns, and developing new approaches when familiar ones fail.
 
-The objective is to give learners practice confronting unfamiliar situations, recognizing patterns and constructing approaches when no ready-made answer is available.
+The objective is not merely to teach learners a collection of useful tools.
 
-**We should not merely teach children how to use the tools humanity has already invented. We should help them develop the confidence and ability to invent new tools when necessary.**
+**It is to help them become people who can create new tools when existing ones fail.**
 
-That is a far more ambitious goal than mastering a syllabus.
+Because life will always present problems we have never encountered before.
 
-And it brings us back to the paradox with which I began.
+## The Real Goal of Education
 
-Humanity has accumulated an extraordinary abundance of knowledge. We can access explanations, formulas, tutorials and expert opinions almost instantly. Artificial intelligence is making this information even more accessible.
+Over time, I hope learners stop depending on others for every answer.
 
-That is a remarkable achievement.
+They start questioning assumptions, exploring possibilities, examining evidence, and reasoning from first principles.
 
-But access to knowledge is not the same as the ability to think.
+They become independent thinkers.
 
-If anything, the growing abundance of readily available answers makes it more important to preserve the experience of figuring things out for ourselves.
+And, in a very real sense, philosophers.
 
-I believe the purpose of education is not merely to fill children's memories with what others have discovered.
+Not people who reject the knowledge of others, but people who can understand it, question it, appreciate it, and build upon it.
 
-It is to help them develop a lasting confidence in their own capacity to understand the world, question assumptions and confront the unfamiliar.
+The goal of education should not be merely to fill a child's memory with the knowledge of others.
 
-To look at a difficult problem and think, "I don't know the answer yet, but perhaps I can figure it out."
+It should be to develop such deep confidence in their own ability to think that they can face unfamiliar problems without immediately looking for someone to tell them what to do.
 
-Not to raise children who know all the answers.
+That is what Learning by Inventing is about.
 
-**But to raise children who know they can figure things out.**
+Not creating children who know all the answers.
+
+**But raising children who know they can figure things out.**
