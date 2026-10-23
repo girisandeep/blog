@@ -223,25 +223,35 @@ And that belief can change their relationship with learning.
 
 ### Understanding is different from knowing
 
-Imagine two children learning to solve Sudoku using backtracking.
+Let me give you an example from programming.
 
-The first child is given an algorithm and an explanation of how it works.
+There is a technique called backtracking. The idea is simple: make a choice, see where it leads, and if you get stuck, undo that choice and try another.
 
-The second child is given a carefully designed sequence of problems through which they gradually invent backtracking themselves.
+You have probably done this yourself while solving a Sudoku. You put a 4 in an empty square. A few moves later, you find a square where no number fits. So you go back, erase the 4, and try a 7.
 
-Both children may eventually solve Sudoku.
+That's backtracking.
 
-But what happens when we give them a seemingly unrelated problem, such as the eight queens puzzle?
+Now imagine two children learning it.
 
-The first child might remember backtracking as a technique for solving Sudoku.
+The first child is told: *"This is backtracking. Here are the steps. Use them to solve Sudoku."*
 
-The second child has experienced the process of inventing the technique.
+The second child is simply given Sudoku puzzles, starting with very small ones. They guess, get stuck, and slowly realize that whenever they get stuck, they should go back to their last guess and change it. Nobody told them. They invented backtracking.
 
-They have explored possibilities, encountered dead ends, and discovered why returning to earlier decisions can help.
+Both children can now solve Sudoku.
 
-They may be better equipped to recognize the same underlying structure in a completely different problem.
+Then we give them a new puzzle: place eight queens on a chessboard so that no queen can attack another.
 
-And even if they forget the algorithm, they have practiced the reasoning that could allow them to reconstruct it.
+This looks nothing like Sudoku. No numbers. No boxes.
+
+The first child may not see any connection. For them, backtracking is "the Sudoku method."
+
+The second child is more likely to notice that it's the same kind of problem: place a queen, check whether the rest can still fit, and if not, go back and move it.
+
+Why? Because they didn't learn backtracking as a list of steps. They learned it as a way of thinking that came out of their own struggle.
+
+And even if they forget the algorithm, they can invent it again.
+
+The second child has practiced something the first child hasn't: inventing a solution.
 
 This is what I find so fascinating about discovery-based learning.
 
